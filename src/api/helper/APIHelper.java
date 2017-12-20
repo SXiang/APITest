@@ -1,4 +1,4 @@
-package webdamdb.helper;
+package api.helper;
 
 import java.io.IOException;
 import java.io.InputStream;

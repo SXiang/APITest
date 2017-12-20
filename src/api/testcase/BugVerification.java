@@ -1,4 +1,4 @@
-package webdamdb.testcase;
+package api.testcase;
 
 import org.junit.*;
 import org.junit.runner.JUnitCore;
@@ -8,8 +8,10 @@ import org.junit.runner.notification.Failure;
 import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
-import webdamdb.helper.APIHelper;
-import webdamdb.helper.JSONHelper;
+
+import api.helper.APIHelper;
+import api.helper.JSONHelper;
+
 import static org.junit.Assert.*;
 import java.util.List;
 import org.apache.http.*;

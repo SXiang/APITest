@@ -1,4 +1,4 @@
-package webdamdb.helper;
+package api.helper;
 
 import java.util.ArrayList;
 import java.util.List;

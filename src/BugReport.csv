@@ -1,6 +1,0 @@
-Bug#,	Method,	Path,	QueryString,	Bug Description
-1,	GET,	/api/v1/asset,	12341,	'date_modified': 1483275313 is before 'date_created': 1494287713 which is not correct
-2,	GET,	/api/v1/asset,	12343,	'date_modified': 1483275313 is before 'date_created': 1483285713 which is not correct
-3,	GET,	/api/v1/asset,	12344,	'date_created:' is not a valid property name. should be date_created
-4,	GET,	/api/v1/asset,	12341,	invalid image link(Not Found): http://interview-testing-api.webdamdb.com/images/apples.jpg
-5,	GET,	/api/v1/search,	?query=apple and a=a.	timeout, API should be responsive and handle query in a reasonable time
